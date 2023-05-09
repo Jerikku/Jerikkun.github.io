@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Follow My Socials</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f1f1f1;
+        margin: 0;
+      }
+      header {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+      }
+      .item {
+        width: 200px;
+        height: 200px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        box-shadow: 0 0 10px #d3d3d3;
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 10px #d3d3d3;
+      }
+      .item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .item a {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 18px;
+        color: #333333;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+      .item a:hover {
+        color: #ff0000;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Follow My Socials</h1>
+    </header>
+    <div class="container">
+      <div class="item">
+        <img src="https://via.placeholder.com/200x200" alt="Instagram">
+        <a href="#">Instagram</a>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/200x200" alt="Twitter">
+        <a href="#">Twitter</a>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/200x200" alt="Facebook">
+        <a href="#">Facebook</a>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/200x200" alt="YouTube">
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+  </body>
+</html>
